@@ -1,4 +1,4 @@
-= Patrick vs. Patrick =
+# Patrick vs. Patrick #
 
 Vergleich von Webentwicklungsstrategien anhand einer vereinfachten realistischen Webanwendung.
 Als Beispiel soll ein Tool zur Verwaltung und dem Versand von Newslettern dienen.
@@ -7,7 +7,7 @@ Dieses Projekt enthät die Resourcen auf die man sich gemeinsam geeinigt hat. Di
 
 Teilnahme willkommen!
 
-== Vorgaben ==
+## Vorgaben ##
 
 - Layout und DB-Struktur vorgegeben
 - HTML-Layout vorgegeben
@@ -27,10 +27,10 @@ Teilnahme willkommen!
 	- keine Behandlung von Rückläufern nötig
 	- Webanwendung informiert Browser (via AJAX) über Fortschritt des Mailversandes
 
-== Kriterien ==
+## Kriterien ##
 
 Die Projekte werden hinsichtlich folgender Kriterien bewertet:
 
-	1. "Code-Eleganz": Wie einfach/aufwändig ist es die Aufgaben umzusetzen? Wie übersichtlcih ist der entstandene Code?
-	2. Wartbarkeit & Flexibilität: Wie leicht können geänderte Anforderungen und neue Funktionen umgesetzt werden?
-	3. Performanz: Einfacher Lasttest - Abfolge subscribe, confirm, unsubscribe. Wieviel pro Sekunde? Spielen die Lösungen in der gleichen Liga oder gibt es merkbare Unterschiede?
+1. "Code-Eleganz": Wie einfach/aufwändig ist es die Aufgaben umzusetzen? Wie übersichtlcih ist der entstandene Code?
+2. Wartbarkeit & Flexibilität: Wie leicht können geänderte Anforderungen und neue Funktionen umgesetzt werden?
+3. Performanz: Einfacher Lasttest - Abfolge subscribe, confirm, unsubscribe. Wieviel pro Sekunde? Spielen die Lösungen in der gleichen Liga oder gibt es merkbare Unterschiede?
