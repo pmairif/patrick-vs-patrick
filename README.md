@@ -20,6 +20,7 @@ Teilnahme willkommen!
 	- Liste von Empfängern mit Name und E-Mail-Adr
    	- Admin kann Einträge hinzufügen, ändern und löschen
 	- Newsletter erstellen und versenden
+	- Informationen zu Änderungen via Flash Messages
 - Mails
 	- Mailversand mit reinen Textmails, kein multipart, kein HTML
 	- personalisierte Mails (Anrede)
