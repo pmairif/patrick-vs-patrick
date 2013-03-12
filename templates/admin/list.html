@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Liste der Anmeldungen</title>
+</head>
+<body>
+	<h1>Patrick vs. Patrick</h1>
+	<hr />
+	<div>
+		<li class="message">Anmeldung wurde erflogreich hinzugefügt.</li>
+	</div>
+	
+	<form action="/PvP/admin/subscription/list" method="get">
+		<input type="text" name="query" value="" placeholder="Suchanfrage" />
+		<input type="submit" />
+	</form>
+	
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<th>eMail</th>
+			<th>Vorname</th>
+			<th>Nachname</th>
+			<th>Aktivierungscode</th>
+			<th>aktiviert</th>
+			<th>Operationen</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>test@test.de</td>
+			<td>Patrick</td>
+			<td>Hesse</td>
+			<td>674356374</td>
+			<td>nein</td>
+			<td>
+				<a href="admin/subscription/edit?id=1">bearbeiten</a> | 
+				<a href="admin/subscription/delete?id=1">löschen</a>
+			</td>
+		</tr>
+	</table>
+	
+	<div class="pager">
+		<a href="/PvP/admin/subscription/list?q=121&page=1">1</a>
+		<a href="/PvP/admin/subscription/list?q=121&page=2">2</a>
+		...
+		<a href="/PvP/admin/subscription/list?q=121&page=10">10</a>
+		<a href="/PvP/admin/subscription/list?q=121&page=11">11</a>
+	</div>
+	
+	<div>
+		<a href="/PvP/admin/subscription/create">neue Anmeldung eintragen</a>
+	</div>
+	
+	<hr />
+	(C) 2013 by Patrick Hesse
+
+	<a href="/PvP/admin/subscription/list">Liste der Anmeldungen</a> |
+	<a href="/PvP/admin/logout">Abmelden</a>
+</body>
+</html>

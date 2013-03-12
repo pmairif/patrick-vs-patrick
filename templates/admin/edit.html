@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Anmeldungen bearbeiten</title>
+</head>
+<body>
+	<h1>Patrick vs. Patrick</h1>
+	<hr />
+	<div />
+	
+	<form action="/PvP/admin/subscription/edit" method="post">
+		<input type="hidden" name="id" value="1" />
+		<input placeholder="E-Mailadresse" value="test@test.de" name="email" type="text" /><br />
+		<input placeholder="Vorname" value="Patrick" name="firstname" type="text" /><br />
+		<input placeholder="Nachname" value="Hesse" name="lastname" type="text" /><br />
+		<input placeholder="Aktivierungscode" value="234234" name="confirmation_code" type="text" /><br />
+		<input name="confirmed" type="checkbox" /> aktiviert<br />
+		<input value="hinzufügen" type="submit" />
+	</form>
+	
+	
+	<hr />
+	(C) 2013 by Patrick Hesse
+
+	<a href="/PvP/admin/subscription/list">Liste der Anmeldungen</a> |
+	<a href="/PvP/admin/logout">Abmelden</a>
+</body>
+</html>
