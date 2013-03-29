@@ -1,0 +1,1 @@
+Suche nach Texten für z.B. das Listing im Admin Bereich sollten über eine Volltextsuchmaschiene geregelt werden (Bsp: 5 Mio Anmeldungen)
