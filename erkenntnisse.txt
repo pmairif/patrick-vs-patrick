@@ -1,1 +1,3 @@
-Suche nach Texten für z.B. das Listing im Admin Bereich sollten über eine Volltextsuchmaschiene geregelt werden (Bsp: 5 Mio Anmeldungen)
+- Suche nach Texten für z.B. das Listing im Admin Bereich sollten über eine Volltextsuchmaschiene geregelt werden (Bsp: 5 Mio Anmeldungen)
+- Paging in DB kann Performance kosten (OrderBy, SkipRows?)
+- JMeter auf extra-Maschiene bei Performance-Test's da hoher Eigenverbrauch möglich
